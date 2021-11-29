@@ -1,0 +1,131 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	padding: 2px 2px;
+}
+#addTask {
+	width: 20%;
+	margin: 1% 39%;
+	padding: 1% 0%;
+	text-align: center;
+	line-height: 10px;
+	border: none;
+	background-color: tomato;
+	font: 500;
+	font-family: sans-serif;
+	font-size: 25px;
+	outline: none;
+}
+
+.header {
+	width: 90%;
+	display: flex;
+	background-color: wheat;
+	font-family: cursive;
+	font-size: 17px;
+	margin: 10px 60px;
+	padding: 13px 0px;
+	text-align: center;
+}
+
+.item {
+	width: 300px;
+}
+
+.student-item {
+	display: flex;
+	background-color: whitesmoke;
+	font-family: cursive;
+	font-size: 17px;
+	margin: 10px 60px;
+	padding: 13px 0px;
+	text-align: center;
+}
+.select {
+	border-bottom: 2px solid black;
+	margin: 10px 0px;
+	padding: 2% 0px;
+}
+.student-buttons {
+	text-align: center;
+}
+
+.view,
+.update,
+.delete {
+	width: 300px;
+}
+.student-item:hover {
+	background-color: rgb(231, 231, 231);
+}
+/* ///////////////////////////////// */
+input,
+button {
+	height: 40px;
+	width: 60%;
+	padding: 0% 1%;
+	margin: 2px;
+}
+
+#showList {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: #525252a8;
+	top: 0;
+	left: 0%;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.style {
+	padding: 20px;
+	border-radius: 4px;
+	width: 35%;
+	height: 45vh;
+	position: relative;
+	top: 24%;
+	left: 30%;
+	background-color: tomato;
+}
+.viewPrompt {
+	/* position: relative; */
+	/* left: 20%; */
+}
+
+/* /////////////////////////////////// */
+.show {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.box {
+	width: 36%;
+	height: 50vh;
+	background-color: tomato;
+	position: fixed;
+	top: 150px;
+	left: 420px;
+}
+.close {
+	cursor: pointer;
+	font-size: 20px;
+	margin-left: 95%;
+}
+.showItems {
+	width: 40%;
+	margin: 0% auto;
+	padding: 10px 0px;
+	text-align: center;
+	background-color: tomato;
+	color: white;
+	font-family: cursive;
+	font-size: large;
+}
